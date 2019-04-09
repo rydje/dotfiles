@@ -45,7 +45,7 @@ font-4 = Termsynu:size=8;0
 font-5 = FontAwesome:size=10;0
 
 modules-left = bspwm i3
-modules-center = mpd
+modules-center = mpd spotify
 modules-right = filesystem xbacklight volume xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
@@ -83,7 +83,7 @@ font-4 = Termsynu:size=8;0
 font-5 = FontAwesome:size=10;0
 
 modules-left = bspwm i3
-modules-center = mpd
+modules-center = mpd spotify
 modules-right = filesystem xbacklight volume xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
@@ -320,10 +320,10 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date =
+date = " %d/%m/%Y"
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
+time = %H:%M:%S
 time-alt = %H:%M:%S
 
 format-prefix = 
@@ -428,12 +428,21 @@ menu-0-1-exec = menu-open-2
 menu-1-0 = cancel
 menu-1-0-exec = menu-open-0
 menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
+menu-1-1-exec = reboot
 
 menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
+menu-2-0-exec = poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python ~/.config/polybar/spotify.py -t 42
+
+format-underline = #1db954
 
 [settings]
 screenchange-reload = true
