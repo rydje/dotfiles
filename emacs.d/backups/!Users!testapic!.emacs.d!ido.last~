@@ -1,0 +1,306 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/http/" . "handler/")
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/" . "http/")
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/" . "zolomon/")
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/" . "test/")
+ ("/Users/testapic/Projects/clojure/udemy/tutorial/src/" . "tutorial/")
+ ("/Users/testapic/Projects/clojure/udemy/tutorial/" . "src/")
+ ("/Users/testapic/Projects/clojure/udemy/" . "tutorial/")
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/endpoint/zoom/meetings/" . "search/")
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/endpoint/zoom/" . "meetings/")
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/" . "endpoint/")
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/" . "schema/")
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/consumers/" . "media_clip/")
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/" . "consumers/")
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/" . "reflector/")
+ ("/Users/testapic/Projects/uz/insights/service/reflector/resources/" . "migrations/")
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/consumers/" . "media_clip/")
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/" . "component/")
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/" . "reflector/")
+ ("/Users/testapic/Projects/uz/insights/service/reflector/" . "src/")
+ ("/Users/testapic/Projects/clojure/hobbits/src/" . "hobbits/")
+ ("/Users/testapic/Projects/clojure/hobbits/" . "src/")
+ ("/Users/testapic/Projects/testapic/leo-core/src/" . "Panel/")
+ ("/Users/testapic/Projects/testapic/leo-core/" . "src/")
+ ("/Users/testapic/Projects/testapic/" . "leo-core/")
+ ("/Users/testapic/Projects/uz/insights/service/lucien/src/" . "lucien/")
+ ("/Users/testapic/Projects/uz/insights/service/lucien/" . "src/")
+ ("/Users/testapic/Projects/uz/insights/service/galactus/resources/" . "migrations/")
+ ("/Users/testapic/Projects/uz/insights/service/galactus/src/" . "galactus/")
+ ("/Users/testapic/Projects/uz/insights/service/galactus/" . "resources/")
+ ("/Users/testapic/Projects/uz/insights/service/" . "zolomon/")
+ ("/Users/testapic/Projects/uz/insights/" . "service/")
+ ("/Users/testapic/Projects/uz/" . "insights/")
+ ("/Users/testapic/.emacs.d/elpa/" . "cider-1.6.0/")
+ ("/Users/testapic/Projects/clojure/clojure-noob/src/" . "clojure_noob/")
+ ("/Users/testapic/Projects/clojure/clojure-noob/" . "src/")
+ ("/Users/testapic/Projects/clojure/" . "udemy/")
+ ("/Users/testapic/Projects/" . "uz/")
+ ("/Users/testapic/.emacs.d/" . "customizations/")
+ ("/Users/testapic/Documents/" . "UserZoom/")
+ ("/Users/testapic/" . "Projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/"
+ "/Users/testapic/Projects/clojure/udemy/tutorial/src/tutorial/"
+ "/Users/testapic/Projects/uz/insights/service/zolomon/"
+ "/Users/testapic/Projects/uz/insights/dev-stack/"
+ "/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/http/handler/zoom/"
+ "/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/endpoint/zoom/meetings/search/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/component/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/model/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/consumers/media_clip/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/consumers/media_clip/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/consumers/transcription/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/consumers/transcription/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/consumers/video_upload/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/consumers/video_upload/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/handler/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/resources/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/http/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/dev-resources/"
+ "/Users/testapic/Projects/uz/insights/service/reflector/"
+ "/Users/testapic/.emacs.d/"
+ "/Users/testapic/Projects/clojure/hobbits/src/hobbits/"
+ "/Users/testapic/Projects/clojure/"
+ "/Users/testapic/.emacs.d/elpa/cider-1.6.0/"
+ "/Users/testapic/Projects/clojure/clojure-noob/src/clojure_noob/"
+ "/Users/testapic/Projects/testapic/leo-core/src/Panel/"
+ "/Users/testapic/Projects/uz/insights/service/lucien/src/lucien/"
+ "/Users/testapic/Projects/uz/insights/service/galactus/resources/migrations/"
+ "/Users/testapic/Projects/uz/insights/service/galactus/src/galactus/"
+ "/Users/testapic/.emacs.d/elpa/spinner-1.7.3/"
+ "/Users/testapic/.emacs.d/elpa/dash-20180903.1042/"
+ "/Users/testapic/.emacs.d/elpa/queue-0.2/"
+ "/Users/testapic/.emacs.d/elpa/cider-0.23.0/"
+ "/Users/testapic/.emacs.d/themes/"
+ "/Users/testapic/.emacs.d/customizations/"
+ "/Users/testapic/Documents/UserZoom/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test_system.clj"
+ "watchers.clj"
+ "macros.clj"
+ "atoms.clj"
+ "project.clj"
+ "base.yml"
+ "meetings_test.clj"
+ "namespaces.clj"
+ "dealership.clj"
+ "exceptions.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/" (25624 9908 189204 594000) "src/" "BUILD" ".dockerignore" "README.md" "dev-resources/" "script/" ".nrepl-port" "resources/" "target/" "Makefile" "Dockerfile" "test/" "project.clj" "../" "./")
+
+ ("/Users/testapic/" (25624 9909 356927 483000) ".composer/" "cloud_sql_proxy" ".zsh_sessions/" ".viminfo" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" "fonts/" ".m2/" ".hyper.js" ".vscode/" ".mono/" ".mysql_history" ".pyenv/" "Documents/" ".npm/" "My Games/" "WeChatProjects/" ".mc/" ".zcompdump-Ryan’s MacBook Pro-5.8.1" ".codetogether/" ".Trash/" "Applications/" ".vimrc" "Movies/" ".ssh/" ".private/" ".cljstyle" "install-clj-kondo" ".hyper_plugins/" "Public/" ".lein/" ".zcompdump-Ryan’s MacBook Pro-5.8" "google-cloud-sdk 2/" "Google Drive/" ".pickle/" ".pgadmin/" ".android/" ".node_repl_history" ".ctsystem" ".emacs.d/" "google-cloud-sdk/" ".lesshst" ".gitlab-runner/" ".npmrc" "Library/" "Desktop/" ".cljstyle.bak" ".zsh_history" "java_error_in_phpstorm.hprof" ".nrepl-port" "Postman/" ".nvm/" ".zprofile" ".zshrc.backup" "Pictures/" "Projects/" ".psql_history" ".local/" ".zshrc" ".zprofile.bak" ".wget-hsts" ".CFUserTextEncoding" ".yarnrc" ".gnupg/" ".DS_Store" ".node-gyp/" ".fleet/" ".docker/" ".clojure/" ".npmrc.bak" ".symfony5/" "Music/" ".config/" "../" "./")
+
+ ("/Users/testapic/.emacs.d/customizations/" (25620 19519 369598 44000) "elisp-editing.el" "setup-js.el" "navigation.el" "editing.el" "setup-clojure.el" "misc.el" "shell-integration.el" "ui.el" "editing.el~" "../" "./")
+
+ ("/Users/testapic/.emacs.d/" (25620 19290 334226 718000) ".smex-items" "cider-history" "backups/" "themes/" "elpa/" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "customizations/" "ido.last" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/udemy/tutorial/" (25620 13057 827005 835000) "src/" ".idea/" "doc/" ".gitignore" ".lein-repl-history" "README.md" ".nrepl-port" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "tutorial.iml" "project.clj" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/udemy/tutorial/src/tutorial/" (25620 13603 125120 538000) "dealership.clj" "watchers.clj" "macros.clj" "structmaps.clj" "loops.clj" "functions.clj" "conditionals.clj" "sequences.clj" "destructuring.clj" "core.clj" "atoms.clj" "exceptions.clj" "namespaces.clj" "pets.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/dev-stack/" (25619 55437 549164 55000) "elasticsearch.yml" "nginx.conf" "Procfile" "uploads.yml" "README.md" "script/" "base.yml" "compose" ".lsp/" "Makefile" ".clj-kondo/" "clojure/" "frontend.yml" "frontend/" "ssl/" "../" "./")
+
+ ("/Users/testapic/Projects/" (25597 28586 674670 958000) "Budget/" "nextjs-blog/" "toto.php" "recipes-next/" "bamboo/" "nextjs-tutorial/" "testapic/" "eurecab/" "heroku_bamboo_dump.sql" "clojure/" "docker-tutorial/" ".DS_Store" "uz/" "my-wave-portal/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/http/handler/zoom/" (25597 29494 781903 785000) "meetings_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/http/handler/" (25597 29494 781853 411000) "userzoom_test.clj" "zoom/" "settings_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/http/" (25597 29494 781278 43000) "handler/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/consumer/zoom/" (25597 29494 775655 155000) "import/" "token.clj" "import.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/consumer/zoom/import/" (25597 29494 775572 448000) "file.clj" "notification_config.clj" "format.clj" "transcription.clj" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/udemy/tutorial/src/" (25617 16010 172019 348000) "tutorial/" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/udemy/" (25617 16010 170046 774000) "Clojure/" "tutorial/" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/" (25610 44654 705874 783000) "clojure-noob/" "learn/" "udemy/" "hobbits/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/consumer/" (25597 29494 774773 291000) "usertesting/" "zoom/" "team/" "userzoom/" "transcript/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/consumer/transcript/" (25597 29494 773741 637000) "result.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/endpoint/zoom/meetings/search/" (25597 29494 769026 571000) "Response.avsc" "FileData.avsc" "Sources.avsc" "MeetingData.avsc" "Request.avsc" "TypeFlag.avsc" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/endpoint/zoom/meetings/" (25597 29494 769290 442000) "import/" "search/" "hide/" "verify-and-update/" "delete-imported/" "unhide/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/endpoint/zoom/" (25597 29494 769437 524000) "meetings/" "settings/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/endpoint/" (25597 29494 766982 138000) "zoom/" "userzoom/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/schema/" (25597 29494 766369 395000) "endpoint/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/migrations/" (25597 29494 766164 564000) "1594986812-add-meetings-tables.down.sql" "1595535324-fixes-to-meetings.up.sql" "1594986812-add-meetings-tables.up.sql" "1600895107-index-hidden-field.down.sql" "1600895107-index-hidden-field.up.sql" "1595535324-fixes-to-meetings.down.sql" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/resources/" (25597 29494 770231 306000) "static/" "schema/" "migrations/" "config.edn" "logback.xml" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/" (25597 29494 779107 570000) "zolomon/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/" (25597 29494 782514 278000) "client/" "test_system.clj" "consumer/" "model/" "http/" "util/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/model/" (25597 29494 782146 574000) "zoom/" "transcript_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/test/zolomon/model/zoom/" (25597 29494 782187 782000) "meeting_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/http/handler/zoom/meetings/" (25597 29494 776407 562000) "view.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/" (25597 29494 771967 784000) "zolomon/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/" (25597 29494 778507 661000) "config.clj" "system.clj" "client/" "consumer/" "migrations.clj" "model/" "http/" "core.clj" "scheduler/" "util/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/http/" (25597 29494 775901 360000) "handler/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/http/handler/" (25597 29494 776177 65000) "zoom/" "userzoom.clj" "routes.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/zolomon/src/zolomon/http/handler/zoom/" (25597 29494 776507 894000) "meetings/" "settings.clj" "meetings.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/" (25616 18927 124330 904000) "test_system.clj" "end_to_end_test.clj" "model/" "http/" "consumers/" "email_notification_test.clj" "utils/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/component/" (25597 29494 705699 817000) "coconut.clj" "lucien.clj" "rev_ai.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/lucien/" (25614 38012 669147 906000) "src/" "BUILD" "doc/" ".dockerignore" "README.md" "dev-resources/" "script/" "resources/" "target/" "Makefile" "Dockerfile" ".clj-kondo/" "test/" "tests.edn" "project.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/" (25615 61557 780941 849000) "src/" "BUILD" "doc/" ".dockerignore" ".lein-repl-history" "README.md" "dev-resources/" "script/" ".nrepl-port" "resources/" "target/" "Makefile" "Dockerfile" "test/" "project.clj" ".lein-failures" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/lib/" (25597 29494 336117 163000) "mr-fantastic/" "nomnom.utility-belt.sql/" "django/" "utility-belt.http.service-auth/" "blink.commons/" "nomnom.omega-red/" "utility-belt.http/" "avro-x/" "abracad/" "nomnom.utility-belt/" "nomnom.duckula/" "constantine/" "bucket/" "insights-editor.commands/" "uatu/" "doop/" "insights-editor.extensions/" "constrictor/" "nomnom.eternity/" "nomnom.lockjaw/" "garbage-man/" "grumpy/" "nomnom.bunnicula/" "insights-editor.utils/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/lib/constrictor/" (25614 38012 480515 594000) "src/" "doc/" "README.md" "script/" "resources/" "target/" "Makefile" ".clj-kondo/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/lib/constrictor/test/" (25597 29494 207262 598000) "data/" "constrictor/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/lib/constrictor/test/constrictor/" (25597 29494 207045 893000) "core_test.clj" "schema_test.clj" "tree2/" "zip/" "view_test.clj" "html/" "test_helper.clj" "tree/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/blink/" (25614 38012 535717 18000) "src/" "BUILD" "doc/" ".dockerignore" "README.md" "dev-resources/" "script/" "resources/" "target/" "Makefile" "Dockerfile" "test/" "project.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/blink/test/" (25597 29494 374297 105000) "data/" "blink/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/blink/test/blink/" (25597 29494 373749 736000) "lucien/" "db/" "utils/" "component/" "ampersand/" "test_db.clj" "test_utils/" "processing/" "integration_endpoints/" "system_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/blink/test/blink/utils/" (25597 29494 374169 773000) "time_test.clj" "rate_limit_test.clj" "rating_test.clj" "conversation_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/infra/" (25597 29493 936900 710000) "structure/" "README.md" "script/" ".terraformignore" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/infra/structure/" (25597 29494 172995 775000) "aws/" "image/" "shared/" "module/" "glue/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/infra/structure/aws/" (25600 23355 450350 465000) "tf" "internal/" "production-us-1/" "Makefile" "development/" "staging/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/infra/structure/aws/staging/" (25614 53830 670904 403000) "service_lucien.tf" "service_mandarin.tf" "vpc.tf" "lambda_nginx_watchdog.tf" ".terraform.lock.hcl" "service_zolomon.tf" "tf" "service_mervyn.tf" "vpc_security_groups.tf" "alb.tf" "bastion.tf" "dns.tf" "iam.tf" "certs.tf" "service_godzilla.tf" "variables.tf" "ami.tf" "service_galactus.tf" "service_frontend.tf" "db_elasticsearch.tf" "service_scourge.tf" "service_cypher.tf" "secrets.edn" "cloud_init.tf" "keys.tf" "inspector.tf" "db_monitoring.tf" "service_rorschach.tf" "env" "README.md" "service_feedback.tf" "service_ampersand.tf" "service_galvatron.tf" "service_variables.tf" "shared/" "alb_router_app.tf" "secrets.tf" "service_reflector.tf" "service_cyclonus.tf" "lambda_db_configurator.tf" "db_postgres.tf" "service_lucien_migrate.tf" "service_doombot.tf" "service_skywarp.tf" "service_collector.tf" "module/" "db_rabbitmq.tf" "service_laserbeak.tf" "alb_router_api.tf" "Makefile" "service_chameleon.tf" "iam_resource_monitoring.tf" "instance_runner.tf" "s3.tf" "service_cosmo.tf" "lambda_notifications.tf" "db_redis.tf" "main.tf" "service_destroyer.tf" "service_blink.tf" "glue/" "service_drift.tf" "service_captain_carrot.tf" "outputs.tf" "ecs.tf" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/consumers/media_clip/" (25614 53830 471724 194000) "notify_test.clj" "convert_test.clj" "status_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/consumers/media_clip/" (25614 53830 469504 892000) "convert.clj" "delete.clj" "notify.clj" "status.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/" (25614 53830 669912 292000) ".git/" "service/" "doc/" "db/" "lib/" ".github/" "static/" ".gitignore" "README.md" "script/" "etc/" "LICENSE" "frontend/" "tools/" "infra/" "dev-stack/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/" (25614 53830 470826 415000) "config.clj" "system.clj" "client/" "migrations.clj" "model/" "http/" "consumers/" "utils/" "core.clj" "component/" "push_notification.clj" "email_notification.clj" "handler/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/consumers/transcription/" (25614 53830 470390 713000) "result.clj" "process.clj" "request.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/consumers/transcription/" (25597 29494 714961 660000) "process_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/consumers/video_upload/" (25597 29494 708402 700000) "convert.clj" "notify.clj" "status.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/consumers/video_upload/" (25597 29494 715190 198000) "status_test.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/http/" (25597 29494 709963 472000) "server.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/handler/" (25609 38771 722870 414000) "clip.clj" "transcript.clj" "allowances.clj" "audio.clj" "video.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/dev-resources/" (25597 29494 699859 556000) "test_db.sql" "reflector/" "logback-test.xml" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/model/" (25597 29494 712189 111000) "transcript.clj" "user.sql" "user.clj" "document.clj" "uploaded_document.sql" "uploaded_document.clj" "transcript_request.sql" "transcript_request.clj" "source.clj" "source.sql" "media_clip.sql" "media_clip.clj" "transcription.clj" "transcription.sql" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/client/" (25597 29494 705247 31000) "coconut.clj" "lucien.clj" "uploadcare.clj" "rev_ai.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/reflector/consumers/" (25597 29494 715129 991000) "audio_upload/" "delete_team_test.clj" "video_upload/" "transcription/" "media_clip/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/test/" (25597 29494 713139 141000) "data/" "reflector/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/resources/migrations/" (25597 29494 702178 319000) "1673424341-fix-uploaded-documents-constraint.down.sql" "1604567567-add-language-to-transcript-request.down.sql" "1597002310-new-transcription-table.down.sql" "1597002310-new-transcription-table.up.sql" "1663675406-rename-media_clips-table.down.sql" "1567784598-add-transcription-tables.up.sql" "1655114722-alter-column-token-to-text-on-uploaded-documents.up.sql" "1604567567-add-language-to-transcript-request.up.sql" "1659524585-add-updated_at-to-media_clip.up.sql" "1658917688-create-media_clips-table.up.sql" "1655114722-alter-column-token-to-text-on-uploaded-documents.down.sql" "1673424341-fix-uploaded-documents-constraint.up.sql" "1658917688-create-media_clips-table.down.sql" "1659524585-add-updated_at-to-media_clip.down.sql" "1663675406-rename-media_clips-table.up.sql" "1567784598-add-transcription-tables.down.sql" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/resources/" (25597 29494 703620 92000) "static/" "schema/" "migrations/" "config.edn" "logback.xml" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/reflector/consumers/" (25597 29494 708170 619000) "scheduled/" "delete_team.clj" "audio_upload/" "video_upload/" "transcription/" "media_clip/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/reflector/src/" (25597 29494 704708 912000) "reflector/" "../" "./")
+
+ ("/Users/" (25600 24286 535000 361000) "rydje/" "Shared/" "testapic/" ".localized" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/hobbits/src/hobbits/" (25605 51547 777238 916000) "core.clj" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/hobbits/" (25605 51476 441567 706000) "src/" "doc/" ".gitignore" "README.md" ".nrepl-port" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/hobbits/src/" (25605 48629 540040 97000) "hobbits/" "../" "./")
+
+ ("/Users/testapic/.emacs.d/elpa/cider-1.6.0/" (25601 40107 633946 674000) "cider-mode.elc" "cider-eval.elc" "cider-popup.el" "cider-browse-ns.el" "cider-scratch.elc" "cider-eval.el" "cider-connection.elc" "cider-doc.el" "cider-ns.elc" "cider-apropos.el" "nrepl-client.elc" "cider-popup.elc" "cider-pkg.el" "cider-browse-ns.elc" "cider-browse-spec.elc" "cider-common.elc" "cider-find.el" "cider-stacktrace.el" "cider-selector.el" "cider-ns.el" "cider-common.el" "cider-inspector.elc" "cider-mode.el" "cider-completion.el" "cider-format.elc" "cider-eldoc.el" "cider-client.elc" "nrepl-client.el" "cider-resolve.elc" "cider-selector.elc" "cider-jar.elc" "nrepl-dict.el" "cider-stacktrace.elc" "cider-cheatsheet.el" "cider-inspector.el" "cider.elc" "cider-browse-spec.el" "cider-format.el" "cider-doc.elc" "cider-profile.el" "cider-test.el" "cider-xref.elc" "cider-overlays.elc" "cider-overlays.el" "cider-cheatsheet.elc" "cider-repl.el" "cider-test.elc" "cider-autoloads.el" "cider-find.elc" "cider-util.el" "cider-client.el" "cider-jar.el" "cider-classpath.el" "cider-scratch.el" "cider-debug.el" "cider-classpath.elc" "cider-repl-history.el" "cider-debug.elc" "cider-macroexpansion.elc" "cider-connection.el" "cider-tracing.el" "cider-clojuredocs.el" "cider-repl-history.elc" "cider-apropos.elc" "cider-xref.el" "cider-util.elc" "cider-repl.elc" "cider-resolve.el" "cider-clojuredocs.elc" "cider-completion.elc" "nrepl-dict.elc" "cider-profile.elc" "cider-macroexpansion.el" "cider.el" "cider-tracing.elc" "cider-eldoc.elc" "../" "./")
+
+ ("/Users/testapic/.emacs.d/elpa/" (25605 22604 917397 980000) "jsonrpc-1.0.16/" "a-20180907.953/" "git-commit-20180802.2018/" "gnupg/" "s-20180406.808/" "project-0.9.8/" "project-0.9.8.signed" "sesman-20190909.1754/" "dash-2.19.1/" "smex-20151212.2209/" "with-editor-20180726.2044/" "clojure-mode-extra-font-locking-5.16.0/" "external-completion-0.1/" "spinner-1.7.4/" "ghub-20180909.2230/" "xref-1.6.2/" "memoize-20180614.1930/" "hydra-0.15.0/" "inf-clojure-3.2.1/" "queue-0.2/" "tagedit-20161121.855/" "spinner-1.7.4.signed" "archives/" "external-completion-0.1.signed" "projectile-20180824.2239/" "parseclj-20190531.711/" "epl-20180205.2049/" "rainbow-delimiters-2.1.5/" "archive-downloader-1.1/" "parseedn-20191113.831/" "cider-1.6.0/" "eglot-1.11/" "pkg-info-20150517.1143/" "exec-path-from-shell-20180324.204/" "magit-2.13.0/" "eglot-1.11.signed" "jsonrpc-1.0.16.signed" "clojure-mode-5.16.0/" "async-20180527.1730/" "magit-popup-20180726.2037/" "ido-completing-read+-20180628.244/" "lv-0.15.0/" "queue-0.2.signed" "xref-1.6.2.signed" "paredit-20171127.205/" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/clojure-noob/" (25605 23630 13323 40000) "src/" "doc/" ".gitignore" ".lein-repl-history" "README.md" ".nrepl-port" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/testapic/Projects/clojure/clojure-noob/src/clojure_noob/" (25601 49673 975696 909000) "core.clj" "../" "./")
+
+ ("/Users/testapic/Projects/testapic/leo-core/src/Panel/Application/" (25293 9817 76316 162000) "UseCase/" "Request/" "Presenter/" "Response/" "../" "./")
+
+ ("/Users/testapic/Projects/testapic/leo-core/src/Panel/" (25293 9817 76831 248000) "Presentation/" "Domain/" "Infrastructure/" "Application/" "../" "./")
+
+ ("/Users/testapic/Projects/testapic/leo-core/src/" (25293 9817 70882 343000) "Kernel.php" "Shared/" "Panel/" "Organization/" "../" "./")
+
+ ("/Users/testapic/Projects/testapic/leo-core/" (25330 13232 245182 967000) "src/" ".idea/" ".phpunit.result.cache" "vendor/" "composer.json" ".git/" ".gitlab-ci.yml" "phpunit.xml.dist" "fixtures/" ".env" ".gitignore" "symfony.lock" "public/" "README.md" "cloned-repos/" ".env.test" "var/" "tests/" "phpstan.neon" "resources/" "ci/" "Makefile" "config/" "bin/" "composer.lock" "migrations/" "../" "./")
+
+ ("/Users/testapic/Projects/testapic/myreport.html/" (25469 61147 873716 806000) "relations.html" "violations.html" "coupling.html" "fonts/" "oop.html" "panel.html" "junit.html" "classes.js" "packages.html" "js/" "images/" "css/" "complexity.html" "loc.html" "index.html" "composer.html" "all.html" "package_relations.html" "../" "./")
+
+ ("/Users/testapic/Projects/testapic/" (25517 5048 750154 902000) "account2.testapic.com/" "leo-core/" "testapic.editorconfig" "js-testapic.com/" "api-components/" "leo-nest/" "recorder_chrome/" "routes-traffic/" ".DS_Store" "processing-service/" "account2.testapic.com.nodejs/" "myreport.html/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/lucien/src/lucien/" (25597 29494 607020 627000) "config.clj" "store/" "system.clj" "consumers.clj" "import/" "export/" "cache.clj" "migrations.clj" "model/" "http/" "consumers/" "search/" "core.clj" "component/" "storage_setup.clj" "schedulers.clj" "util/" "pipeline/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/lucien/src/" (25597 29494 569091 432000) "lucien/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/galactus/resources/migrations/" (25601 26080 947046 934000) "1493920250-add-basic-indexes.down.sql" "1579130111-add-indexes-for-actor-type-and-timestamp.down.sql" "1496131395-index-actor-id.up.sql" "1493981185-index-event-type-for-better-querying.down.sql" "1496131395-index-actor-id.down.sql" "1579130111-add-indexes-for-actor-type-and-timestamp.up.sql" "1573676648-add-unique-constraint.up.sql" "1493981185-index-event-type-for-better-querying.up.sql" "1573676648-add-unique-constraint.down.sql" "1508517704-add-event-log-table.up.sql" "1508517704-add-event-log-table.down.sql" "1493914370-create-events-table.down.sql" "1509098268-add-subscription-table.down.sql" "1571738698-add-notification-status.up.sql" "1509098268-add-subscription-table.up.sql" "1571738698-add-notification-status.down.sql" "1579455340-redo-indexes.down.sql" "1579455340-redo-indexes.up.sql" "1493920250-add-basic-indexes.up.sql" "1493914370-create-events-table.up.sql" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/galactus/resources/" (25597 29494 468727 680000) "quotes.edn" "email/" "test_quotes.edn" "static/" "emails.edn" "schema/" "migrations/" "config.edn" "logback.xml" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/galactus/src/galactus/activity/" (25597 29494 473726 993000) "http_client.clj" "model/" "time.clj" "event.clj" "component/" "handler/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/galactus/src/galactus/" (25597 29494 479615 378000) "config.clj" "system.clj" "event/" "scheduled/" "http.clj" "consumer/" "migrations.clj" "model/" "time.clj" "core.clj" "notification.clj" "activity/" "notification/" "feed_reader.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/galactus/src/" (25597 29494 470246 745000) "galactus/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/galactus/" (25597 50861 666729 571000) "src/" "BUILD" "doc/" ".dockerignore" "README.md" "dev-resources/" "script/" "resources/" "target/" "Makefile" "Dockerfile" "test/" "project.clj" "../" "./")
+
+ ("/Users/testapic/Projects/uz/insights/service/" (25597 29494 761413 915000) "zolomon/" "godzilla/" "galactus/" "laserbeak/" "cosmo/" "lucien/" "antimonitor/" "cyclonus/" "galvatron/" "scourge/" "doombot/" "drift/" "feedback/" "cypher/" "mandarin/" "collector/" "ampersand/" "destroyer/" "mervyn/" "skywarp/" "captain-carrot/" "chameleon/" "reflector/" "rorschach/" "blink/" "../" "./")
+
+ ("/Users/testapic/Projects/uz/" (25597 29453 527731 470000) "insights/" "../" "./")
+
+ ("/Users/testapic/.emacs.d/elpa/spinner-1.7.3/" (24071 43797 0 0) "spinner-pkg.el" "spinner.el" "spinner-autoloads.el" "../" "./")
+
+ ("/Users/testapic/.emacs.d/elpa/dash-20180903.1042/" (25599 1605 839129 194000) "dash-pkg.el" "dash.el" "dash-autoloads.el" "../" "./")
+
+ ("/Users/testapic/.emacs.d/elpa/queue-0.2/" (25599 7703 214555 72000) "queue-autoloads.el" "queue-pkg.el" "queue.el" "../" "./")
+
+ ("/Users/testapic/.emacs.d/elpa/cider-0.23.0/" (24071 43797 0 0) "cider-popup.el" "cider-browse-ns.el" "cider-eval.el" "cider-doc.el" "cider-apropos.el" "cider-pkg.el" "cider-find.el" "cider-stacktrace.el" "cider-selector.el" "cider-ns.el" "cider-common.el" "cider-mode.el" "cider-completion.el" "cider-eldoc.el" "nrepl-client.el" "nrepl-dict.el" "cider-cheatsheet.el" "cider-inspector.el" "cider-browse-spec.el" "cider-format.el" "cider-profile.el" "cider-test.el" "cider-overlays.el" "cider-repl.el" "cider-autoloads.el" "cider-util.el" "cider-client.el" "cider-classpath.el" "cider-scratch.el" "cider-debug.el" "cider-repl-history.el" "cider-connection.el" "cider-compat.el" "cider-tracing.el" "cider-clojuredocs.el" "cider-xref.el" "cider-resolve.el" "cider-macroexpansion.el" "cider.el" "../" "./")
+
+ ("/Users/testapic/.emacs.d/themes/" (24071 43797 0 0) "zenburn-theme.el" "tomorrow-night-eighties-theme.el" "color-theme-tomorrow.el" "tomorrow-theme.el" "tomorrow-night-blue-theme.el" "tomorrow-night-bright-theme.el" "tomorrow-night-theme.el" "../" "./")
+
+ ("/Users/testapic/.emacs.d/auto-save-list/" (25599 172 480209 331000) ".saves-8474-Ryans-MacBook-Pro.local~" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
