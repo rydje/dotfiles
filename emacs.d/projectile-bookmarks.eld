@@ -1,1 +1,0 @@
-("~/Projects/uz/insights/" "~/Projects/clojure/udemy/tutorial/" "~/Projects/testapic/leo-core/")
