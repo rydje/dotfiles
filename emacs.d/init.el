@@ -11,4 +11,6 @@
  ;; If there is more than one, they won't work right.
  )
 
+(add-to-list 'load-path "~/.emacs.d")
+
 (load-file "packages/clojure-mode.el")
