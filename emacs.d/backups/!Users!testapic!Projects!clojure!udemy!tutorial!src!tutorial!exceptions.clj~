@@ -1,8 +1,0 @@
-(ns tutorial.exceptions)
-
-(defn ExHandling 
-  [x]
-  (inc x)
-  )
-
-(ExHandling "hello")

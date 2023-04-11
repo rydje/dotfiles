@@ -1,6 +1,0 @@
-(ns tutorial.namespaces)
-
-(defn []
-  (println "hello")
-  )
-(-main)
