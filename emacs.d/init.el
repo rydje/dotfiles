@@ -86,6 +86,26 @@
   :ensure t
   :hook ((clojure-mode) . cider-mode))
 
+(use-package paredit
+  :ensure t
+  :config
+  :hook ((eval-expression-minibuffer-setup . enable-paredit-mode)
+         (ielm-mode . enable-paredit-mode)
+         (lisp-mode . enable-paredit-mode) 
+         (lisp-interaction-mode . enable-paredit-mode)
+         (scheme-mode . enable-paredit-mode)
+         (slime-repl-mode . enable-paredit-mode) 
+         (cider-repl-mode . enable-paredit-mode)
+         (cider-mode . enable-paredit-mode)
+         (clojure-mode-hook . enable-paredit-mode)))
+
+;;  (add-hook 'emacs-lisp-mode-hook #'paredit-mode)
+  ;; enable in the *scratch* buffer
+;;  (add-hook 'lisp-interaction-mode-hook #'paredit-mode)
+;;  (add-hook 'ielm-mode-hook #'paredit-mode)
+;;  (add-hook 'lisp-mode-hook #'paredit-mode)
+;;  (add-hook 'eval-expression-minibuffer-setup-hook #'paredit-mode))
+
 (use-package projectile
   :ensure t
   :init
@@ -151,7 +171,7 @@
          ("M-g i" . consult-imenu)
          ("M-g I" . consult-imenu-multi)
          ;; M-s bindings (search-map)
-         ("M-s d" . consult-find)
+         ("M-s d" . consult-fi)
          ("M-s D" . consult-locate)
          ("M-s g" . consult-grep)
          ("M-s G" . consult-git-grep)
@@ -238,7 +258,27 @@
   ;; (setq consult-project-function (lambda (_) (projectile-project-root)))
   ;;;; 5. No project support
   ;; (setq consult-project-function nil)
-)
+  )
+
+(use-package orderless
+  :ensure t
+  :custom
+  (completion-styles '(orderless basic))
+  (completion-category-overrides '((file (styles basic partial-completion)))))
+
+;; Enable rich annotations using the Marginalia package
+(use-package marginalia
+  :ensure t
+  ;; Either bind `marginalia-cycle' globally or only in the minibuffer
+  :bind (("M-A" . marginalia-cycle)
+         :map minibuffer-local-map
+         ("M-A" . marginalia-cycle))
+  ;; The :init configuration is always executed (Not lazy!)
+  :init
+
+  ;; Must be in the :init section of use-package such that the mode gets
+  ;; enabled right away. Note that this forces loading the package.
+  (marginalia-mode))
 
 ;; (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
 ;;;; EDITING ;;;;
@@ -258,4 +298,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(corfu eglot cider consult projectile-ripgrep ripgrep vertico aggressive-indent use-package smartparens rainbow-delimiters idle-highlight-mode clojure-mode)))
+   '(paredit marginalia orderless corfu eglot cider consult projectile-ripgrep ripgrep vertico aggressive-indent use-package smartparens rainbow-delimiters idle-highlight-mode clojure-mode)))
