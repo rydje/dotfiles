@@ -1,6 +1,7 @@
 elpa/
 auto-save-list/
 backups/
+transient/
 ido.last
 projectile.cache
 projectile-bookmarks.eld
