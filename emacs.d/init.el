@@ -10,13 +10,6 @@
 
 ;;;; PACKAGES ;;;;
 
-;;(use-package smartparens
-;;  :ensure t)
-
-(use-package aggressive-indent
-  :ensure t
-  :hook (clojure-mode . aggressive-indent-mode))
-
 (use-package rainbow-delimiters
   :ensure t
   :hook ((prog-mode) . rainbow-delimiters-mode))
