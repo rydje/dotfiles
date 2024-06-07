@@ -1,3 +1,4 @@
+straight/
 elpa/
 auto-save-list/
 backups/
@@ -9,3 +10,4 @@ projects
 cider-history
 .recentf
 .smex-items
+org-init.el
