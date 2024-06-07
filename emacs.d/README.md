@@ -4,7 +4,11 @@
 Setup emacs config
 
 ## Link init.el file
-The `init.el` file is the core of emacs config.
+   - `early-init.el` disable package.el because we use straight
+   - `init.el` setup straight, use-package and org
+   - `org-init.org` actual emacs config. org file will be compiled to .el file
+
+## Create a symlink, start emacs, enjoy
 ```
 cd ~/
 mv .emacs.d .emacs.d.bck
