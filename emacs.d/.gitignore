@@ -12,3 +12,7 @@ cider-history
 .smex-items
 org-init.el
 tree-sitter/
+
+.lsp-session-v1
+lsp-cache/
+tramp
