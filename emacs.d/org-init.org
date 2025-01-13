@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ?#+STARTUP: overview
 * Basic
 #+BEGIN_SRC emacs-lisp
@@ -17,6 +18,19 @@
 
 #+END_SRC
 * Theming
+||||||| parent of 02185c6 (org update)
+#+STARTUP: overview
+* Doom Emacs
+=======
+#+STARTUP: overview
+* Org Modern
+#+BEGIN_SRC emacs-lisp
+  (use-package org-modern
+    :ensure t
+    :hook ((org-mode-hook) . org-modern-mode))
+#+END_SRC
+* Doom Emacs
+>>>>>>> 02185c6 (org update)
 #+BEGIN_SRC emacs-lisp
   (use-package doom-themes
     :ensure t
