@@ -42,8 +42,6 @@
     ;; Corrects (and improves) org-mode's native fontification.
     (doom-themes-org-config))
 
-  (use-package nerd-icons)
-
   (use-package doom-modeline
     :ensure t
     :init (doom-modeline-mode 1))
